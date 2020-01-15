@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/e1a05f05-7090-4f90-800b-b801004d9223/resourceGroups/samples/providers/Microsoft.Web/sites/ng-pwa-sample",
+    "appService.deploySubpath": "dist\\ng-pwa-sample"
+}

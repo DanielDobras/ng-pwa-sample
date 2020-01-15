@@ -1,0 +1,19 @@
+<h2 class="center">Is it a bird?</h2>
+
+
+
+<div class="center" *ngIf="isUserOnline" style="color:green;">Online</div>
+
+<div class="center" *ngIf="!isUserOnline" style="color:red;">Offline</div>
+
+<br />
+
+<router-outlet></router-outlet>
+
+<br />
+<button mat-button class="center secondary" *ngIf="pwaService.promptEvent" (click)="installPwa()">
+  Like the game? Add it to your homescreen!
+</button>
+
+
+<app-pushsubscriber></app-pushsubscriber>

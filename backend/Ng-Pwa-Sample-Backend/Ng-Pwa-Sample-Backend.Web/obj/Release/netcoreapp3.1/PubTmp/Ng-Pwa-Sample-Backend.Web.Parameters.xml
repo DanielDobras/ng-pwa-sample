@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Ng-Pwa-Sample-Backend" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\D\.Dobras\\Documents\\projects\\tutorials\\ng-pwa-sample-backend\\Ng-Pwa-Sample-Backend\\Ng-Pwa-Sample-Backend\.Web\\obj\\Release\\netcoreapp3\.1\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>
