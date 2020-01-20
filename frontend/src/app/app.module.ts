@@ -10,9 +10,9 @@ import { AppComponent } from "./app.component";
 import { AppRoutingModule } from "./app.routing";
 import { PushsubscriberComponent } from "./components/pushsubscriber/pushsubscriber.component";
 import { QuizComponent } from "./components/quiz/quiz.component";
-import { QuestionService } from "./http/question.service";
 import { MaterialModule } from "./material.module";
 import { NewsletterService } from "./services/newsletter.service";
+import { QuestionService } from "./services/question.service";
 
 @NgModule({
   declarations: [AppComponent, QuizComponent, PushsubscriberComponent],

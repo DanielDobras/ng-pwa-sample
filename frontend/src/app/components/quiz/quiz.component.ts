@@ -1,5 +1,5 @@
-import { QuestionService } from "src/app/http/question.service";
 import { Question } from "src/app/models/question";
+import { QuestionService } from "src/app/services/question.service";
 
 import { Component, OnInit } from "@angular/core";
 import { DomSanitizer, SafeUrl } from "@angular/platform-browser";
